@@ -1,0 +1,149 @@
+/* GLOBAL */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.in-padding-80{
+  padding:80px 0;
+}
+
+.in-padding-60{
+  padding:60px 0;
+}
+
+.in-padding-30{
+  padding: 30px 0;
+}
+
+.in-padding-15{
+  padding: 15px 0;
+}
+
+.in-margin-bottom-20{
+  margin-bottom: 20px;
+}
+
+
+
+.in-wrapper-50{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.gray{
+  background-color: #F3F5F9;
+}
+
+
+
+/* MENU FIX */
+.menu-fix{
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #2285FD;
+  height: 90px;
+}
+
+.menu-fix ul{
+  list-style: none;
+  padding: 15px 0;
+}
+
+.menu-fix ul li{
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu-fix ul li a{
+  color: #162C5A;
+}
+
+.menu-fix ul li a:hover{
+  color: #162C5A;
+  text-decoration: none;
+}
+
+.glyphicon-menu-hamburger{
+  padding: 10px;
+  font-size: 20px;
+  color: #2285FD;
+  border: 1px solid #2285FD;
+  border-radius: 5px;
+  margin-right: 20px;
+
+}
+
+/* MAIN */
+
+main{
+  margin-top: 90px;
+  background-color: aquamarine;
+}
+
+.in-jumbotron{
+  background-image: url(../img/bg-banner-home.jpg);
+  background-position: right;
+  background-size: contain;
+  padding: 60px 0;
+  color: white;
+}
+
+.in-jumbotron p{
+  color: #BACCFF;
+}
+
+.in-jumbotron .white{
+  background-color: white;
+  height: 200px;
+  border-radius: 5px;
+}
+
+
+
+/* .------ */
+
+.red{
+  background-color: red;
+  height: 150px;
+}
+
+.blue{
+  background-color: blue;
+  height: 100px;
+}
+
+.pink{
+  background-color: pink;
+  height: 100px;
+}
+
+.green{
+  background-color: green;
+  height: 100px;
+}
+
+.purple{
+  background-color: purple;
+  height: 100px;
+}
+
+.white{
+  background-color: white;
+  height: 100px;
+}
+
+.blue-blue{
+  background-color: blue;
+}
+
+footer{
+  background-color: #031C4E;
+  padding: 15px 0;
+}
