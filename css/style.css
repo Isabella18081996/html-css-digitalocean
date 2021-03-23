@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.in-padding-7{
+  padding: 7px 0;
+}
+
 .in-padding-80{
   padding:80px 0;
 }
@@ -25,17 +29,28 @@
   margin-bottom: 20px;
 }
 
-
-
 .in-wrapper-50{
   width: 50%;
   margin: 0 auto;
 }
 
-.gray{
-  background-color: #F3F5F9;
+.in-wrapper-70{
+  width: 70%;
+  margin: 0 auto;
 }
 
+.in-height-150{
+  height: 150px;
+}
+
+.gray{
+  background-color: #F3F5F9;
+  text-align: center;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 
 /* MENU FIX */
@@ -52,7 +67,7 @@
 
 .menu-fix ul{
   list-style: none;
-  padding: 15px 0;
+  padding: 7px 0;
 }
 
 .menu-fix ul li{
@@ -80,12 +95,18 @@
 
 }
 
+.menu-fix img{
+  width: 150px;
+}
+
 /* MAIN */
 
 main{
   margin-top: 90px;
-  background-color: aquamarine;
+  
 }
+
+/* JUMBOTRON */
 
 .in-jumbotron{
   background-image: url(../img/bg-banner-home.jpg);
@@ -95,23 +116,99 @@ main{
   color: white;
 }
 
+.in-jumbotron h1{
+  font-size: 60px;
+  font-weight: 700;
+  text-align: left;
+}
+
 .in-jumbotron p{
   color: #BACCFF;
 }
 
 .in-jumbotron .white{
   background-color: white;
-  height: 200px;
   border-radius: 5px;
 }
 
+/* FORM */
 
+form{
+  color:black;
+}
+
+.white{
+  background-color: white;
+  padding: 15px 5px;
+}
+
+.white h3{
+  color: black;
+}
+
+.white>span{
+  color: #006AFF;
+  font-size: 24px;
+}
+
+.white span{
+  color: #006AFF;
+}
+
+.white button{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.white p{
+  color: #152B58;
+}
+
+.white .button-logo{
+  background-image: url(../img/google-icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.2);
+  background-color: white;
+}
+
+.button-logo>span{
+  line-height: 30px;
+  color: #6E6E6E;
+}
 
 /* .------ */
 
+/* SECTION-PHOTO */
+
+.section-photo img{
+  width: 100%;
+  max-height: 90px;
+}
+
+/* SEZIONE BIANCA */
+.deploy ul{
+  list-style: none;
+  margin: 7px 0;
+  border-left: 1px solid black;
+}
+
+.deploy ul li{
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+h4{
+  color: #203561;
+}
+
 .red{
-  background-color: red;
-  height: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .blue{
@@ -134,14 +231,34 @@ main{
   height: 100px;
 }
 
-.white{
-  background-color: white;
-  height: 100px;
+/* SEZIONE COLONNE-BLU */
+
+.colonne-blu{
+  background-image: linear-gradient(#0046C5, #00209B);
+  color: white;
 }
 
-.blue-blue{
-  background-color: blue;
+.colonne-blu h3{
+  color: white;
+  font-size: 30px;
 }
+
+
+.colonne-blu a{
+  color: #00CDCF;
+}
+
+
+.line-white{
+  border-top: 1px solid white;
+  width: 93%;
+}
+
+.colonne-blu span{
+  line-height: 40px;
+}
+
+/* FOOTER */
 
 footer{
   background-color: #031C4E;

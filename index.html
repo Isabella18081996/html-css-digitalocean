@@ -8,6 +8,8 @@
     <title>Digital Ocean</title>
 
     <!-- Bootstrap -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
@@ -17,10 +19,10 @@
     <!-- HEADER -->
     <header>
       <!-- MENU FIX -->
-      <div class="menu-fix in-padding-15">
+      <div class="menu-fix in-padding-30 .in-wrapper-70">
         <div class="container">
           <div class="row">
-            <div class="col-xs-6 col-lg-3"><h4>DigitalOcean</h4></div>
+            <div class="col-xs-6 col-lg-3"><img src="img/logo.png" alt="logo-nav-bar"></div>
   
             <div class="col-lg-5 visible-lg">
               <nav>
@@ -55,6 +57,8 @@
 
     <!-- MAIN -->
     <main>
+
+      <!-- JUMBOTRON -->
       <div class="in-jumbotron text-center">
         <div class="container">
           <div class="row">
@@ -63,7 +67,23 @@
               <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
             </div>
             <div class="col-xs-12 col-sm-5">
-              <div class="white"></div>
+              <div class="white">
+                <h3>Deploy your app in seconds.</h3><span>
+                Get started now</span>
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+
+
+                  <button type="submit" class="btn btn-default">Create your account</button>
+                  <button class="button-logo" type="submit" class="btn btn-default"><span>Sign up with Google</span></button>
+                </form>
+                <p>By signing up you agree to the <span><a href="#">Terms of Service.</a></span></p>
+              </div>
             </div>
           </div>
         </div>
@@ -72,7 +92,9 @@
 
       </div>
 
-      <section class="gray in-padding-15">
+      <!-- /JUMBOTRON -->
+
+      <section class="section-photo gray in-padding-15 ">
         <h4>INNOVATIVE BUSINESS TRUST DIGITALOCEAN</h4>
         <div class="container">
           <div class="row">
@@ -80,7 +102,7 @@
             <div class="col-xs-6 col-sm-2"><img class="img-responsive" src="img/gitlab.svg" alt="gitlab"></div>
             <div class="col-xs-6 col-sm-2"><img class="img-responsive" src="img/slack.svg" alt="slack"></div>
             <div class="col-xs-6 col-sm-2"><img class="img-responsive" src="img/hashicorp.svg" alt="hashicorp"></div>
-            <div class="col-xs-6 col-sm-2"><img class="img-responsive" src="img/hashicorp.svg" alt="hashicorp"></div>
+            <div class="col-xs-6 col-sm-2"><img class="img-responsive" src="img/wework.svg" alt="hashicorp"></div>
             <div class="col-xs-6 col-sm-2"><img class="img-responsive" src="img/splunk.svg" alt="splunk"></div>
           </div>
 
@@ -88,25 +110,49 @@
         <a href="#">View customer stories <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
       </section>
 
-      <section>
+      <section class="deploy">
         <h3>Deploy and scale seamlessly</h3>
         <p>Our optimized configuration process saves your team time when running and scaling distributed applications, Al & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-4">
-              <div class="red"></div>
+              <div class="red">
+                <ul>
+                  <li>Deploy</li>
+                  <li>Manage</li>
+                  <li>Secure</li>
+                  <li>Scale</li>
+                  <li>Monitor</li>
+                </ul>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <div class="blue"></div>
+              <div class="in-height-150">
+                <img src="img/cluster-deploy.svg" alt="cluster-deploy">
+                <h4>Cluster Deployments</h4>
+                <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI,or directly against our API.</p>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <div class="pink"></div>
+              <div class="in-height-150">
+                <img src="img/optimized-compute.svg" alt="optimized-compute">
+                <h4>Optimized compute types</h4>
+                <p>Get the compute resources you need with Standard or Optimized Droplets</p>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <div class="green"></div>
+              <div class="in-height-150">
+                <img src="img/one-click.svg" alt="one-click">
+                <h4>One-click apps</h4>
+                <p>Skip the install and configuration process with pre-built open source images supporting Rails,Cassandra, Docker, and more.</p>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <div class="purple"></div>
+              <div class="in-height-150">
+                <img src="img/global.svg" alt="global">
+                <h4>Global availability</h4>
+                <p>Deploy to any of our data center regions around the world</p>
+              </div>
             </div>
 
           </div>
@@ -114,8 +160,8 @@
       </section>
 
       <section class="gray text-center in-padding-30">
-        <h3>ciao</h3>
-        <p>ciaaaao</p>
+        <h3>Designed for developers</h3>
+        <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
         <div class="in-wrapper-50">
           <div class="container-fluid">
             <div class="row">
@@ -129,26 +175,106 @@
       </section>
 
       <section>
-        <h3>ciao</h3>
+        <h3>The features business needs</h3>
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-sm-4"><div class="red in-margin-bottom-20"></div></div>
-            <div class="col-xs-12 col-sm-4 "><div class="red in-margin-bottom-20"></div></div>
-            <div class="col-xs-12 col-sm-4 "><div class="red in-margin-bottom-20"></div></div>
+            <div class="col-xs-12 col-sm-4"><div class="purple in-margin-bottom-20"></div></div>
+            <div class="col-xs-12 col-sm-4 "><div class="purple in-margin-bottom-20"></div></div>
+            <div class="col-xs-12 col-sm-4 "><div class="purple in-margin-bottom-20"></div></div>
 
           </div>
         </div>
       </section>
 
-      <section class="blue-blue in-padding-30">
-        <h3>ciao</h3>
+
+      <!-- SEZIONE COLONNE-BLU -->
+
+      <section class="colonne-blu in-padding-30">
+        <h3 class="text-center">Service your customers around the world from 12 regions.</h3>
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-lg-6">
-              <div class="red"></div>
+              <div class="row">
+                <div class="col-xs-2">
+                  <span>AMS2</span>
+                </div>
+                <div class="col-xs-7">
+                  <span>Amsterdam,Netherlands</span>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#"><span>Test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></span></a>
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-xs-2">
+                  <span>AMS3</span>
+                </div>
+                <div class="col-xs-7">
+                  <span>Amsterdam,Netherlands</span>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#"><span>Test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></span></a>
+                </div>
+                <div class="line-white"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-2">
+                  <span>BLR1</span>
+                </div>
+                <div class="col-xs-7">
+                  <span>Bangalore,India</span>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#"><span>Test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></span></a>
+                </div>
+                <div class="line-white"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-2">
+                  <span>FRA1</span>
+                </div>
+                <div class="col-xs-7">
+                  <span>Frankfurt,German</span>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#"><span>Test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></span></a>
+                </div>
+                <div class="line-white"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-2">
+                  <span>LON1</span>
+                </div>
+                <div class="col-xs-7">
+                  <span>London,UK</span>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#"><span>Test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></span></a>
+                </div>
+                <div class="line-white"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-2">
+                  <span>NYC1</span>
+                </div>
+                <div class="col-xs-7">
+                  <span>New York,USA</span>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#"><span>Test speed <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></span></a>
+                </div>
+                <div class="line-white"></div>
+              </div>
             </div>
+
             <div class="col-xs-12 col-lg-6">
-              <div class="red"></div>
+              <div class="purple"></div>
             </div>
 
           </div>
@@ -175,7 +301,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div class="red"></div>
+              <div class="purple"></div>
             </div>
 
 
