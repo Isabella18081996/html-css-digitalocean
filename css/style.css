@@ -190,41 +190,87 @@ form{
   max-height: 90px;
 }
 
-/* SEZIONE BIANCA */
+/* SEZIONE DEPLOY */
+
+.deploy h3{
+  color: #031C4E;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.sotto-p{
+  font-size: 152%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+
 .deploy ul{
   list-style: none;
-  margin: 7px 0;
-  border-left: 1px solid black;
+  border-left: 1px solid #CCCCCC;
 }
 
 .deploy ul li{
-  padding-left: 10px;
-  margin-bottom: 10px;
+  padding-left: 15px;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #7C869E;
 }
 
-h4{
+.deploy h4{
   color: #203561;
 }
 
-.red{
-  padding-top: 15px;
-  padding-bottom: 15px;
+.deploy img{
+  margin-bottom: 12px;
 }
+
+.deploy p{
+  color: #63718D;
+}
+
+/* /SEZIONE DEPLOY */
+
+
+/* SEZIONE FEATURES */
+
+.features h3{
+  color: #031C4E;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.features img{
+  margin-bottom: 12px;
+}
+
+.features h4{
+  color: #203561;
+}
+
+.features p{
+  color: #63718D;
+}
+
+.features span{
+  color: #217CFF;
+  font-size: 16px;
+}
+
+.features .font-freccia{
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+/* /SEZIONE FEATURES */
+
 
 .blue{
   background-color: blue;
   height: 100px;
 }
 
-.pink{
-  background-color: pink;
-  height: 100px;
-}
-
-.green{
-  background-color: green;
-  height: 100px;
-}
 
 .purple{
   background-color: purple;
@@ -240,23 +286,32 @@ h4{
 
 .colonne-blu h3{
   color: white;
-  font-size: 30px;
+  font-size: 36px;
 }
 
+.span-gray{
+  color: #9AAAD9;
+}
 
 .colonne-blu a{
   color: #00CDCF;
 }
 
+.font-freccia{
+  font-size: 13px;
+  margin-left:10px;
+}
 
 .line-white{
   border-top: 1px solid white;
-  width: 93%;
+  width: 95%;
 }
 
 .colonne-blu span{
   line-height: 40px;
 }
+
+/* /SEZIONE COLONNE BLU */
 
 /* FOOTER */
 
