@@ -313,9 +313,77 @@ form{
 
 /* /SEZIONE COLONNE BLU */
 
+
+/* SEZIONE BLU BOTTONE */
+
+.sezione-blu-bottone{
+  background-image: linear-gradient(#0046C5, #00209B);
+}
+
+.sezione-blu-bottone h3{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.sezione-blu-bottone button{
+  padding: 10px 15px;
+  color: #1A78FF;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+
+}
+
+/* /SEZIONE BLU BOTTONE */
+
 /* FOOTER */
 
 footer{
   background-color: #031C4E;
   padding: 15px 0;
+}
+
+footer img{
+  width: 12%;
+  margin-bottom: 10px;
+}
+
+footer ul li h5{
+color: #FCFCFD;
+font-size: 120%;
+}
+
+footer p{
+color: #8992A8;
+margin-bottom: 0;
+}
+
+footer span{
+  color: #4F5E7F;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  line-height: 25px;
+  font-size: 110%;
+}
+
+footer .lista-loghi li{
+  display: inline;
+  margin-right: 10px;
+  line-height: 50px;
+}
+
+footer ul li a{
+  color:#959EB1;
+}
+
+footer ul li a i{
+  color: #7A859D;
+  font-size: 20px;
 }
